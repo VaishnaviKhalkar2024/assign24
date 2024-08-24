@@ -1,0 +1,320 @@
+.section{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+body{
+ background-color:#fef6e4 ;
+}
+p{
+    font-family: Cambria;
+    font-size: 20px;
+}
+.section2{
+    display: flex;
+    flex: row;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #f582ae;
+    border: #f582ae 1px solid;
+   
+}
+.section2:hover{
+    
+}
+
+.school-info{
+    width:70%;
+    height: auto;
+    display: block;
+}
+.img{
+    height: 50px;
+    width: 50px;
+}
+.btn{
+ border-radius:50%;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 10px;
+ padding: 5px 10px;
+ background-color: #f582ae;
+ border: 1px solid;
+}
+.btn:hover{
+    box-shadow: 0px 0px 10px 0px #f582ae;
+}
+.info1{
+    display: flex;
+}
+.btn1{
+    margin-left:30px ;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #f582ae;
+    font-size: 20px;
+    color: #fff;
+    border: 0px solid;
+}
+.btn1:hover{
+ text-decoration: underline;
+ padding: 12px 21px;
+}
+.info2-img{
+   
+    height: 400px;
+    width: 400px;
+    background-color: #f3d2c1;
+    border-radius: 70px;
+    margin-top: 20px;
+   
+}
+.info2-img:hover{
+    box-shadow: 0px 0px 10px 0px #f582ae;
+}
+.section3{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 10px 0px #f582ae;
+    border: #f582ae 1px solid;
+}
+.whyus-info{
+    width: 50%;
+    padding: 10px;
+    text-align:start;
+}
+.whyus-img{
+    width: 50%;
+    padding: 20px;
+    padding-left: 20px; 
+    margin-top: 80px;
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+    font-family:'Times New Roman';
+}
+.img2{
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.img2:hover:hover{
+    box-shadow: 0px 0px 10px 0px #f582ae;
+}
+.text{
+    text-align: center;
+}
+.security-info
+{
+    display: flex;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    flex-direction: row;
+    box-shadow: 0px 0px 10px 0px #f582ae;
+    border: #f582ae 1px solid;
+   
+}
+.btn2{
+    border-radius: 50%;
+    background-color: #f582ae;
+}
+.btn2:hover{
+    box-shadow: 0px 0px 10px 0px #f582ae;
+}
+.img3{
+    padding: 5px;
+}
+.sec-info{
+    align-items:center; 
+    padding: 10px;
+    text-align: start;
+    width:600px;  
+}
+.btn-radius{
+    border-radius: 50%;
+}
+.heading1{
+    text-align: start;
+}
+
+
+
+
+/* Mobile Device */
+@media screen and (max-width: 500px)
+{
+    p{
+        font-family: Cambria;
+        font-size: 15px;
+    }
+    .section2{
+       width: 500px;
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .school-info{
+        width:500px;
+        height: auto;
+        display: block;
+    }
+    .img{
+        height: 25px;
+        width: 25px;
+    }
+    .btn{
+     
+     padding: 5px 10px;
+    
+    }
+    
+    .info1{
+        display: flex;
+    }
+    .btn1{
+        
+        padding: 7px 10px;
+        
+    }
+    
+    .info2-img{
+       
+        height: 400px;
+        width: 400px;
+        background-color: #f3d2c1;
+        border-radius: 70px;
+        margin-top: 20px;
+       
+    }
+   
+    .section3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .whyus-info{
+        width: 500px;
+        padding: 10px;
+        text-align:start;
+    }
+    .whyus-img{
+        padding: 20px;
+        padding-left: 20px; 
+    }
+    
+    h1{
+        text-align: center;
+        align-items: center;
+        font-family:'Times New Roman';
+    }
+    .img2{
+        width: 400px;
+        height: 300px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    
+    .text{
+        text-align: center;
+    }
+    .security-info
+    {
+        display: flex;
+        margin-left: 0px;
+        flex-wrap: wrap;
+        width: 500px;
+        
+    }
+    .btn2{
+        border-radius: 50%;
+        background-color: #f582ae;
+    }
+    
+    .img3{
+        padding: 5px;
+    }
+    .sec-info{
+        align-items:center; 
+        padding: 10px;
+        text-align:center;
+        width:500px; 
+         
+    }
+    .btn-radius{
+        border-radius: 50%;
+    }
+    .heading1{
+        text-align: start; 
+}
+}
+
+/*Tablet*/
+@media screen and (min-width: 501px) and (max-width: 768px)
+{
+    p{
+        font-family: Cambria;
+        font-size: 20px;
+        text-align: start;
+    }
+    .section2{
+       width: 750px;
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .school-info{
+        width:700px;
+        height: auto;
+       
+    }
+    .img{
+        height: 25px;
+        width: 25px;
+    }
+    .btn{
+     
+     padding: 5px 10px;
+    
+    }
+    
+    .info1{
+        display: flex;
+    }
+    .btn1{
+        
+        padding: 7px 10px;   
+    }
+    
+    .info2-img{
+       
+        height: 400px;
+        width: 600px;
+        background-color: #f3d2c1;
+        margin-left: 30px;
+    }
+    .section3{
+        display: flex;
+        flex-direction: row;
+        width: 750px;
+        flex-wrap: wrap;
+    }
+    .whyus-info{
+        width: 700px;
+        padding: 10px;
+        text-align:start;
+    }
+    .whyus-img{
+        width: 50%;
+        padding: 20px;
+        padding-left: 20px; 
+        margin-left: 30px;
+    }
+    
+    h1{
+        text-align: center;
+        align-items: center;
+        font-family:'Times New Roman';
+    }
+   
+}
